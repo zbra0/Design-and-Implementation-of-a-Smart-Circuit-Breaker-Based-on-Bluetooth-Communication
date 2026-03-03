@@ -1,0 +1,8 @@
+#ifndef __SERIAL_H
+#define __SERIAL_H
+void Serial_Init(void);
+void Serial_SendNumber(uint32_t Number,uint8_t Length);
+void Serial_SendByte(uint8_t Byte);
+void Serial_SendString(char *string);
+void Serial_Printf(char *format, ...);
+#endif
